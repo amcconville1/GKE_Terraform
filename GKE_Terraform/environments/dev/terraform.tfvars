@@ -1,0 +1,11 @@
+project_id         = "your-dev-project-id"
+region             = "us-central1"
+network_name       = "dev-vpc"
+subnet_name        = "dev-subnet"
+subnet_cidr        = "10.1.0.0/16"
+cluster_name       = "dev-cluster"
+machine_type       = "e2-medium"
+initial_node_count = 1
+min_node_count     = 1
+max_node_count     = 3
+preemptible        = true

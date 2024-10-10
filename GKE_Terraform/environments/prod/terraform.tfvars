@@ -1,0 +1,11 @@
+project_id         = "your-prod-project-id"
+region             = "us-central1"
+network_name       = "prod-vpc"
+subnet_name        = "prod-subnet"
+subnet_cidr        = "10.0.0.0/16"
+cluster_name       = "prod-cluster"
+machine_type       = "e2-standard-4"
+initial_node_count = 3
+min_node_count     = 2
+max_node_count     = 5
+preemptible        = false
